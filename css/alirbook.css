@@ -25,3 +25,19 @@ body {
 .bg-dark {
     background-color: #2D3035 !important;
 }
+
+.card{
+    background-color: #2D3035;
+    color: #ffffff;
+    border-color: #303338;
+}
+
+.a{
+    color: #3D6594;
+}
+
+.list-group-item{
+    background-color: #2D3035;
+    color: #ffffff;
+    border-color: #303338;
+}
