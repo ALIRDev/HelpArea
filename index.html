@@ -88,7 +88,7 @@
         </li>
         <li class="list-group-item"><b style="color: #007BCC">Capitolo 16</b> - Servizio taxi <a href="#taxi"><i class="fas fa-link"></i></a></li>
         <li class="list-group-item"><b style="color: #007BCC">Capitolo 17</b> - Licenze <a href="#licenses"><i class="fas fa-link"></i></a></li>
-        <li class="list-group-item"><b style="color: #007BCC">Capitolo 18</b> - Tasti e comandi <a href="#licenses"><i class="fas fa-link"></i></a></li>
+        <li class="list-group-item"><b style="color: #007BCC">Capitolo 18</b> - Tasti e comandi <a href="#key"><i class="fas fa-link"></i></a></li>
     </ul>
     <br>
     <div class="card" id="serverjoin">
@@ -564,38 +564,241 @@
     <div class="card" id="licenses">
         <div class="card-body">
             <h4 class="card-title"><b style="color: #007BCC">17</b> - Licenze <a href="#licenses"><i class="fas fa-link"></i></a><a href="#alirguide-index"><i class="fas fa-angle-double-up" style="float: right" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="top" data-content="Clicca per tornare su!"></i></a></h4>
+            <h5>Risorse legali</h5>
+            <p>Elenco delle licenze legali acquistabili presso il relativo processo.</p>
             <table class="table">
                 <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">First Name</th>
-                    <th scope="col">Last Name</th>
-                    <th scope="col">Username</th>
+                    <th scope="col">Licenza</th>
+                    <th scope="col">Costo</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <td>Ferro</td>
+                    <td>2000</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>Piombo</td>
+                    <td>13000</td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
+                    <td>Zolfo</td>
+                    <td>6000</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Cotone</td>
+                    <td>2500</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Carbone</td>
+                    <td>4000</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Luppolo</td>
+                    <td>5500</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>Sigaretta</td>
+                    <td>8000</td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td>Microchips</td>
+                    <td>10000</td>
+                </tr>
+                <tr>
+                    <th scope="row">9</th>
+                    <td>Palladio</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <th scope="row">10</th>
+                    <td>Pesca/Sub</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <th scope="row">11</th>
+                    <td>Caccia</td>
+                    <td>10000</td>
+                </tr>
+                </tbody>
+            </table>
+            <h5>Risorse illegali</h5>
+            <p>Elenco delle licenze illegali acquistabili presso gli spacciatori.</p>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Licenza</th>
+                    <th scope="col">Costo</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Uranio</td>
+                    <td>17000</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Cocaina</td>
+                    <td>20000</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Mariuana</td>
+                    <td>7000</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Tungsteno</td>
+                    <td>10000</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Nuke</td>
+                    <td>37000</td>
+                </tr>
+                </tbody>
+            </table>
+            <h5>Licenze di guida</h5>
+            <p>Licenze di guida acquistabili presso le motorizzazioni.</p>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Licenza</th>
+                    <th scope="col">Costo</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Guida (Patente B)</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Barche (Patente Nautica)</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Aerei</td>
+                    <td>3500</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Camion</td>
+                    <td>3000</td>
+                </tr>
+                </tbody>
+            </table>
+            <h5>Licenze crafting</h5>
+            <p>Licenze per sblocco equipaggiamento del crafting acquistabili presso Parra nella città criminale.</p>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Licenza</th>
+                    <th scope="col">Costo</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Armaiolo Pezzente</td>
+                    <td>50000</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Armaiolo Mediocre</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Armaiolo Navigato</td>
+                    <td>200000</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Armaiolo Veterano</td>
+                    <td>300000</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Armaiolo Pro</td>
+                    <td>500000</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Armaiolo Elite</td>
+                    <td>700000</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Protezione Barbone</td>
+                    <td>50000</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Protezione Soldato</td>
+                    <td>150000</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Protezione Guerrafondaio</td>
+                    <td>300000</td>
+                </tr>
+                </tbody>
+            </table>
+            <h5>Licenze particolari</h5>
+            <p>Licenze speciali, per cose speciali!</p>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Licenza</th>
+                    <th scope="col">Costo</th>
+                    <th scope="col">Dove comprarla</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Porto d'armi</td>
+                    <td>5000</td>
+                    <td>Armeria (Zaros)</td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Licenza cittadino</td>
+                    <td>2500</td>
+                    <td>Ufficio Anagrafe (Kavala)</td>
                 </tr>
                 </tbody>
             </table>
         </div>
     </div>
+    <br>
+    <div class="card" id="key">
+        <div class="card-body">
+            <h4 class="card-title"><b style="color: #007BCC">18</b> - Tasti e comandi <a href="#key"><i class="fas fa-link"></i></a><a href="#alirguide-index"><i class="fas fa-angle-double-up" style="float: right" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="top" data-content="Clicca per tornare su!"></i></a></h4>
+            <p class="card-text">
+                hj
+            </p>
+        </div>
+    </div>
+    <br>
     <br><br>
 </main>
 
