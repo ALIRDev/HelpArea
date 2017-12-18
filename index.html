@@ -83,7 +83,14 @@
         <li class="list-group-item"><b style="color: #007BCC">Capitolo 6</b> - Abitazioni <a href="#homes"><i class="fas fa-link"></i></a></li>
         <li class="list-group-item"><b style="color: #007BCC">Capitolo 7</b> - Guadagni legali <a href="#legalincomes"><i class="fas fa-link"></i></a></li>
         <li class="list-group-item"><b style="color: #007BCC">Capitolo 8</b> - Guadagni illegali <a href="#illegalincomes"><i class="fas fa-link"></i></a></li>
-        <li class="list-group-item"><b style="color: #007BCC">Capitolo 9</b> - Armi ed equipaggiamento <a href="#weapons"><i class="fas fa-link"></i></a></li>
+        <li class="list-group-item"><b style="color: #007BCC">Capitolo 9</b> - Armi ed equipaggiamento <a href="#weapons"><i class="fas fa-link"></i></a>
+            <ul>
+                <li><b style="color: #007BCC">9.1</b> Armi legali e porto d'armi <a href="#legalweap"><i class="fas fa-link" style="font-size: 80%"></i></a></li>
+                <li><b style="color: #007BCC">9.2</b> Armi illegali <a href="#illegalweap"><i class="fas fa-link" style="font-size: 80%"></i></a></li>
+                <li><b style="color: #007BCC">9.3</b> Armi rare <a href="#craftweap"><i class="fas fa-link" style="font-size: 80%"></i></a></li>
+                <li><b style="color: #007BCC">9.4</b> Loot e mercato nero <a href="#blackmarket"><i class="fas fa-link" style="font-size: 80%"></i></a></li>
+            </ul>
+        </li>
         <li class="list-group-item"><b style="color: #007BCC">Capitolo 10</b> - Kavala e la NFZ <a href="#kavala"><i class="fas fa-link"></i></a></li>
         <li class="list-group-item"><b style="color: #007BCC">Capitolo 11</b> - Polizia di Stato <a href="#copst"><i class="fas fa-link"></i></a></li>
         <li class="list-group-item"><b style="color: #007BCC">Capitolo 12</b> - Servizi sanitari <a href="#medic"><i class="fas fa-link"></i></a></li>
@@ -437,7 +444,7 @@
             <p>Inizialmente le case non hanno inventario, per espanderlo sono disponibili delle casse presso i mercati sparsi per la mappa, tramite esse è possibile espandere l'inventario della casa.</p>
             <p>Una volta comprato deve essere portato presso la casa ed installato nella stessa.</p>
             <div class="alert alert-light" role="alert">
-                <b>Attenzione!</b> Riloggare nella casa farà scomparire la cassa, devi viaggiare tramite mezzi non riloggando! Troppo facile no?
+                <b>Attenzione!</b> Riloggare nella casa farà scomparire la cassa dal tuo inventario virtuale, devi recarti alla casa ed installarla personalmente, senza tornare nella lobby, troppo facile altrimenti!
             </div>
             <p>Una cassa grande espande l'inventario di 1200, il calcolo del peso degli oggetti è lo stesso per i veicoli (circa 3/4 a pezzo..dipende dalla risorsa), per le armi, la più grande occupa 70 la più piccola 25, giusto per avere un'esempio. </p>
             <p>In base alla casa che compri puoi installare più o meno casse, più è grande la casa più ne puoi mettere. (da 1 a 4 massimo)</p>
@@ -469,7 +476,7 @@
     <div class="card" id="weapons">
         <div class="card-body">
             <h4 class="card-title"><b style="color: #007BCC">9</b> - Armi ed equipaggiamento <a href="#weapons"><i class="fas fa-link"></i></a><a href="#alirguide-index"><i class="fas fa-angle-double-up" style="float: right" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="top" data-content="Clicca per tornare su!"></i></a></h4>
-            <h5>Armi legali e porto d'armi</h5>
+            <h5 id="legalweap"><b style="color: #007BCC">9.1</b> - Armi legali e porto d'armi <a href="#legalweap"><i class="fas fa-link"></i></a></h5>
             <p>Lo stato permette la circolazione con armi con relativo porto d'armi per garantire la sicurezza personale dei civili che frequentano zone pericolose o trasportano materiali.</p>
             <p>Per l'acquisto del porto, recati all'armeria, nella città di Zaros per comprarlo, una volta in tuo possesso sarà possibile comprare sempre presso l'armeria di pistole e mitra.</p>
             <ul>
@@ -485,7 +492,7 @@
             <p>In caso di conflitto a fuoco, con ferimento grave/mortale di qualcuno, verrà rimosso il porto d'armi automaticamente e verrai aggiunto alla lista ricercati.</p>
             <p>Per evitare di finire in carcere, contatta la polizia segnalando il luogo della sparatoria e l'accaduto, se diponibili manderanno qualcuno a verificare ed arrestare l'aggressore, successivamente ti perdoneranno l'impitazione, in quanto è concessa la difesa personale con armi legali.</p>
             <p>Il porto dovrà essere ricomprato presso l'armeria.</p>
-            <h5>Armi illegali</h5>
+            <h5 id="illegalweap"><b style="color: #007BCC">9.2</b> - Armi illegali <a href="#illegalweap"><i class="fas fa-link"></i></a></h5>
             <p>Ovviamente sono disponibili armi non legali, presso tutti i Covi è disponibile un'armeria con alcune armi illegali, tra cui:</p>
             <ul>
                 <li>Ak-S 5.45</li>
@@ -496,7 +503,7 @@
                 <li>Alcuni giubbotti antiproiettile</li>
                 <li>...e relativi munizionamenti</li>
             </ul>
-            <h5>Armi rare</h5>
+            <h5 id="craftweap"><b style="color: #007BCC">9.3</b> - Armi rare <a href="#craftweap"><i class="fas fa-link"></i></a></h5>
             <p>Alcune armi sono esclusivamente craftabili presso la propria abitazione:</p>
             <ul>
                 <li>AKM</li>
@@ -505,7 +512,7 @@
                 <li>MK-18</li>
                 <li>MK-14</li>
             </ul>
-            <h5>Loot e mercato nero</h5>
+            <h5 id="blackmarket"><b style="color: #007BCC">9.4</b> - Loot e mercato nero <a href="#blackmarket"><i class="fas fa-link"></i></a></h5>
             <p>Al termine di un'azine il gruppo che vince ottiene il loot dell'avversario, tra questo ci possono essere armi di ogni tipologia.</p>
             <p>Oltre a reperire le armi con il loot anche gli utenti a volte si liberano degli stock che hanno nelle case, vendendolo a chiunque lo chieda!</p>
             <h5>Equipaggiamento Tattico</h5>
@@ -516,9 +523,14 @@
     <div class="card" id="kavala">
         <div class="card-body">
             <h4 class="card-title"><b style="color: #007BCC">10</b> - Kavala e la NFZ <a href="#kavala"><i class="fas fa-link"></i></a><a href="#alirguide-index"><i class="fas fa-angle-double-up" style="float: right" data-trigger="hover" data-container="body" data-toggle="popover" data-placement="top" data-content="Clicca per tornare su!"></i></a></h4>
-            <p class="card-text">
-                hj
-            </p>
+            <h5>Kavala</h5>
+            <p>Kavala, la città dove tutto inizia, è la citta di spawn iniziale dove avrai la libertà e la sicurezza per iniziare la tua prima partita e dove potrai incontrare ed interagire con le persone con più sicurezza.</p>
+            <p>La città, vigilata attentamente è all'interno di una NFZ speciale, al fine di garantire un gioco roleplay e sicuro per tutti i nuovi arrivati ed i giocatori che vogliono trovare compagnia.</p>
+            <p>Sebbene vigilata e tranquilla per il punto di vista dei combattimenti tra gruppi che si sviluppano all'esterno della città, al suo interno vi è sempre attività, dal nuovo civile al veterano in cerca di compagni d'avventura!</p>
+            <p>Viene controllata da una forza di Polizia Locale, che sorveglia i suoi confini preservando e garantendo un gioco corretto e pulito, con poco impatto per i nuovi utenti.</p>
+            <p>Certo il nuovo civile non si vuole mica trovare dopo 2 minuti morto per le strade di Athira no?</p>
+            <h5>No Fire Zone di Kavala</h5>
+            <p></p>
         </div>
     </div>
     <br>
